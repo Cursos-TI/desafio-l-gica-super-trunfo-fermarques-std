@@ -39,5 +39,16 @@ int main() {
     // Exemplo:
     // printf("A cidade vencedora é: %s\n", cidadeVencedora);
 
+    float Populacao1 = 20.000;
+    float Populacao2 = 30.000;
+    
+
+    if(Populacao1 > Populacao2){
+        printf("A Cidade vencedora é São Paulo e tem o maior número populacional\n");
+    }else {
+        printf("A cidade vencedora é Rio de Janeiro e tem o maior número populacional\n");
+    }
+    
     return 0;
+   
 }
